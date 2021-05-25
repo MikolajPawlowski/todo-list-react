@@ -1,0 +1,40 @@
+
+
+.section__buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__buttons--hiddenButtons {
+    display: none;
+}
+
+.section__button {
+    background-color: transparent;
+    color: teal;
+    border: none;
+    margin: 0 0 0 20px;
+    outline: none;
+    transition: color .5s ease-out;
+}
+
+.section__button:hover {
+    color: rgb(0, 180, 180)
+}
+
+.section__button:disabled {
+    color: rgb(189, 189, 189);
+}
+
+@media(max-width:767px) {
+    .section__buttons {
+        flex-wrap: wrap;
+    }
+    .section__button {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}

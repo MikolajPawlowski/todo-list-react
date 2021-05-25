@@ -1,0 +1,26 @@
+.section {
+    margin-bottom: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding: 20px;
+}
+
+.section__title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.section__list {
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+}
