@@ -24,6 +24,7 @@
     padding: 10px;
     border: none;
     margin: 5px 10px;
+    cursor: pointer;
 }
 
 .form__button:hover {
