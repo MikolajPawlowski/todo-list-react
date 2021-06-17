@@ -10,9 +10,9 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
                     : ""}`
                 }
             >
-                <button 
-                className="list__button list__button--toggleDone"
-                onClick={() => toggleTaskDone(task.id)}
+                <button
+                    className="list__button list__button--toggleDone"
+                    onClick={() => toggleTaskDone(task.id)}
                 >
                     {task.done ? "✓" : ""}
                 </button>
@@ -28,7 +28,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
                     onClick={() => removeTask(task.id)}
                 >
                     🗑️
-              </button>
+                </button>
             </li>
         ))}
     </ul>
