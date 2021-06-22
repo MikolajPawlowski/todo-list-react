@@ -22,7 +22,7 @@ const Form = ({ addNewTask }) => {
                     className="form__input"
                     type="text"
                     placeholder="Co jest do zrobienia?"
-                    onChange={(event) => setNewTaskContent(event.target.value)}
+                    onChange={({target}) => setNewTaskContent(target.value)}
                 />
                 <button className="form__button">Dodaj zadanie</button>
             </fieldset>
