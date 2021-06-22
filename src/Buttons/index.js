@@ -2,15 +2,15 @@ import React from "react";
 import "./style.css";
 
 const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
-    <div className="section__buttons">
+    <div className="buttons">
         {tasks.length > 0 && (
             <>
-                <button onClick={toggleHideDone} className="section__button">
+                <button onClick={toggleHideDone} className="buttons__button">
                     {hideDone ? "Pokaż ukończone" : "Ukryj ukończone"}
                 </button>
                 <button
                     onClick={setAllDone}
-                    className="section__button"
+                    className="buttons__button"
                     disabled={tasks.every(({ done }) => done)}
                 >
                     Ukończ wszystkie
