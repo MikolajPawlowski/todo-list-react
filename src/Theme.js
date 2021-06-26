@@ -13,8 +13,6 @@ export const theme = {
         deleteIconColorActive: "rgb(255, 60, 60)",
     },
     breakpoints: {
-        small: 568,
-        medium: 767,
-        large: 1080,
+        small: 767,
     }
 };
