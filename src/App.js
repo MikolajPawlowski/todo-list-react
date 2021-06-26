@@ -11,7 +11,7 @@ import { theme } from "./Theme.js";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
-  
+
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone);
   };
