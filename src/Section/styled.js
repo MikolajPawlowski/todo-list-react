@@ -14,7 +14,7 @@ export const Header = styled.header`
     border-bottom: 1px solid rgb(235, 235, 235);
     padding: 20px;
 
-    @media(max-width:767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
         grid-template-columns: 1fr;
     }
 `;
