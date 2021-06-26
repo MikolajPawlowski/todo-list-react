@@ -4,6 +4,7 @@ export const theme = {
         buttonsColor: "teal",
         buttonsColorHover: "rgb(0, 175, 175)",
         buttonsColorActive: "rgb(0, 201, 201)",
+        buttonsColorDisabled: "rgb(189, 189, 189)",
         doneIconColor: "rgb(0, 160, 0)",
         doneIconColorHover: "rgb(0, 200, 0)",
         doneIconColorActive: "rgb(0, 220, 0)",
