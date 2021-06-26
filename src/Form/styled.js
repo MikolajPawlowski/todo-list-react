@@ -6,38 +6,29 @@ export const FormWrapper = styled.form`
 
 export const Fieldset = styled.fieldset`
     border: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     padding: 15px;
-    justify-content: space-around;
-    align-items: center;
+    grid-gap: 10px;
     background-color: white;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
-        flex-direction: column;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr;
     }
 `;
 
 export const Input = styled.input`
-    flex-grow: 1;
     padding: 10px;
     color: black;
     border: 1px solid ${({ theme }) => theme.colors.primaryColor};
     outline-color: ${({ theme }) => theme.colors.buttonsColor};
-    margin-right: 5px;
-
-    @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
-        width: 100%;
-        margin-right: 0;
-    }
 `;
 
-export const Button = styled.button`
-    background: ${({ theme }) => theme.colors.buttonsColor};
+export const FormButton = styled.button`
+    background-color: ${({ theme }) => theme.colors.buttonsColor};
     color: white;
     padding: 10px;
     border: none;
-    margin: 5px 10px;
     cursor: pointer;
 
     &:hover {
@@ -50,10 +41,5 @@ export const Button = styled.button`
         background: ${({ theme }) => theme.colors.buttonsActive};
         transform: scale (1.05);
         transition: .5s ease-out;
-    }
-
-    @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
-        width: 100%;
-        margin: 10px 0;
     }
 `;

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { FormWrapper, Fieldset, Input, Button } from "./styled";
+import { FormWrapper, Fieldset, Input, FormButton } from "./styled";
 
 const Form = ({ addNewTask }) => {
     const [newTaskContent, setNewTaskContent] = useState("");
@@ -27,11 +27,11 @@ const Form = ({ addNewTask }) => {
                     placeholder="Co jest do zrobienia?"
                     onChange={({ target }) => setNewTaskContent(target.value)}
                 />
-                <Button
+                <FormButton
                     onClick={() => inputRef.current.focus()}
                 >
                     Dodaj zadanie
-                </Button>
+                </FormButton>
             </Fieldset>
         </FormWrapper>
     )
