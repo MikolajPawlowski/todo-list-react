@@ -1,12 +1,12 @@
 export const theme = {
     colors: {
-        primaryColor: "hsl(0, 0%, 70%)",
+        primaryColor: "teal",
         buttonsColor: "teal",
         buttonsColorHover: "rgb(0, 175, 175)",
-        buttonsColorActive: "rgb(0, 201, 201)",
-        buttonsColorDisabled: "rgb(189, 189, 189)",
-        doneIconColor: "rgb(0, 160, 0)",
-        doneIconColorHover: "rgb(0, 200, 0)",
+        buttonsColorActive: "rgb(0, 200, 200)",
+        buttonsColorDisabled: "rgb(190, 190, 190)",
+        doneIconColor: "green",
+        doneIconColorHover: "rgb(0, 190, 0)",
         doneIconColorActive: "rgb(0, 220, 0)",
         deleteIconColor: "red",
         deleteIconColorHover: "rgb(252, 30, 30)",
