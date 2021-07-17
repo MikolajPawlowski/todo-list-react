@@ -13,7 +13,8 @@ const Buttons = () => {
         <Wrapper>
             {!areTasksEmpty && (
                 <>
-                    <Button onClick={() => dispatch(toggleHideDone())}>
+                    <Button
+                        onClick={() => dispatch(toggleHideDone())}>
                         {hideDone ? "Pokaż" : "Ukryj"} ukończone
                     </Button>
                     <Button
