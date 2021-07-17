@@ -1,5 +1,5 @@
 import { nanoid } from "@reduxjs/toolkit";
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { StyledForm, Fieldset, Input, FormButton } from "./styled";
 import { addTask } from "../tasksSlice";
@@ -27,7 +27,7 @@ const Form = () => {
 
         setNewTaskContent("");
         inputRef.current.focus();
-    }
+    };
 
     return (
         <StyledForm
