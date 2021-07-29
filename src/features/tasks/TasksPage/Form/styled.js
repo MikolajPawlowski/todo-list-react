@@ -17,19 +17,6 @@ export const Fieldset = styled.fieldset`
     }
 `;
 
-export const Input = styled.input`
-    flex-grow:1;
-    margin-right: 10px;
-    padding: 10px;
-    color: black;
-    border: 1px solid ${({ theme }) => theme.colors.primaryColor};
-    outline-color: ${({ theme }) => theme.colors.buttonsColor};
-
-    @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
-        margin: 0 0 10px;
-    }
-`;
-
 export const FormButton = styled.button`
     background-color: ${({ theme }) => theme.colors.buttonsColor};
     color: white;
