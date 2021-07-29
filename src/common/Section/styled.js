@@ -24,3 +24,8 @@ export const SectionTitle = styled.h2`
     margin-left: 0;
     }
 `;
+
+export const Paragraph = styled.p`
+    padding: 10px;
+    margin: 10px;
+`;
