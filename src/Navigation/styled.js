@@ -1,20 +1,28 @@
-import styled, {css} from "styled-components";
+import styled from "styled-components";
+import { NavLink } from "react-router-dom";
+
+const activeClassName = "link-active";
+
+export const StyledNavLink = styled(NavLink).attrs(() => ({
+  activeClassName,
+}))`
+  color: ${({ theme }) => theme.color.white};
+  text-decoration: none;
+
+  &.${activeClassName} {
+    font-weight: bold;
+  }
+`;
 
 export const List = styled.ul`
+    background: ${({ theme }) => theme.color.teal};
     list-style: none;
-    padding: 20px 20px;
+    padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 `;
 
 export const Item = styled.li`
-    display: flex;
-    padding: 10px 10px;
-    align-items: center;
-    border-bottom: 1px solid rgb(235, 235, 235);
-
-    ${({ hidden }) => hidden && css`
-        display: none;
-    `}
+    margin: 20px;
 `;
-
-export const StyledNavLink = styled.p``;
