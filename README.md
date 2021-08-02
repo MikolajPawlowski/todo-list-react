@@ -35,7 +35,7 @@ You can then **check it** by pressing green button, or **delete it** by pressing
 With either one of two appearing buttons you can **show/hide** finished tasks or **mark them all** as finished.
 <br>
 <br>
-You can also **filter**, or fetch example tasks.
+You can also **filter**, or **download** example tasks by using redux-saga.
 <br>
 <br>
 <em>Contact: <pawlowskiem@gmail.com> </em>
