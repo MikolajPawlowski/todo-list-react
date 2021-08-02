@@ -27,7 +27,7 @@ const TaskList = () => {
                     </Button>
                     <Content done={task.done}>
                         <StyledLink to={toTask({ id: task.id })}>
-                        {task.content}
+                            {task.content}
                         </StyledLink>
                     </Content>
                     <Button

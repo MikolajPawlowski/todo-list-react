@@ -9,19 +9,19 @@ export default () => (
   <HashRouter>
     <Navigation />
 
-      <Switch>
-        <Route path={toTask()}>
-          <TaskPage />
-        </Route>
-        <Route path={toTasks()}>
-          <TasksPage />
-        </Route>
-        <Route path={toAuthor()}>
-          <AuthorPage />
-        </Route>
-        <Route>
-          <Redirect to={toTasks()} />
-        </Route>
-      </Switch>
+    <Switch>
+      <Route path={toTask()}>
+        <TaskPage />
+      </Route>
+      <Route path={toTasks()}>
+        <TasksPage />
+      </Route>
+      <Route path={toAuthor()}>
+        <AuthorPage />
+      </Route>
+      <Route>
+        <Redirect to={toTasks()} />
+      </Route>
+    </Switch>
   </HashRouter>
 );
