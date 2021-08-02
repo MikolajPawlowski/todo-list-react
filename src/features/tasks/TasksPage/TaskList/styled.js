@@ -26,6 +26,8 @@ export const Content = styled.span`
     `}
 `;
 
+export const StyledLink = styled.p``;
+
 export const Button = styled.button`
     height: 30px;
     width: 30px;
