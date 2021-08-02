@@ -1,5 +1,6 @@
 export const theme = {
     colors: {
+        white: "white",
         primaryColor: "teal",
         buttonsColor: "teal",
         buttonsColorHover: "rgb(0, 175, 175)",
