@@ -18,6 +18,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 >- JavaScript
 >- Flex & grid
 >- React JS
+>- Redux Saga
+>- Redux Router
+>- Redux Toolkit
 
 ## Description
 
@@ -30,6 +33,9 @@ You can then **check it** by pressing green button, or **delete it** by pressing
 <br>
 <br>
 With either one of two appearing buttons you can **show/hide** finished tasks or **mark them all** as finished.
+<br>
+<br>
+You can also **filter**, or fetch example tasks.
 <br>
 <br>
 <em>Contact: <pawlowskiem@gmail.com> </em>
