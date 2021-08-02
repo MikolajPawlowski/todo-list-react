@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export default styled.button`
-    background-color: transparent;
+    background: transparent;
     color: ${({ theme }) => theme.colors.primaryColor};
     border: none;
     margin: 0 0 0 20px;
-    outline: none;
-    transition: color .5s ease-out;
+    transition: filter 0.5s;
     cursor: pointer;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.small}px) {
