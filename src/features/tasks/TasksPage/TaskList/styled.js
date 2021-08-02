@@ -1,4 +1,22 @@
 import styled, { css } from "styled-components";
+import { NavLink } from "react-router-dom";
+
+const activeClassName = "link-active";
+
+export const StyledLink = styled(NavLink).attrs(() => ({
+  activeClassName,
+}))`
+  color: ${({ theme }) => theme.colors.white};
+  text-decoration: none;
+
+  &.${activeClassName} {
+    font-weight: bold;
+  }
+
+  &:hover {
+    border-bottom: 2px solid;
+  }
+`;
 
 export const List = styled.ul`
     list-style: none;
@@ -25,8 +43,6 @@ export const Content = styled.span`
         text-decoration-line: line-through;
     `}
 `;
-
-export const StyledLink = styled.p``;
 
 export const Button = styled.button`
     height: 30px;
