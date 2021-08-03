@@ -1,14 +1,13 @@
 # Basic to-do list management app.
 
-This simple to-do list was made as an excercise for YouCode course, as an introduction to the React Application.
-In the coming weeks user interactions will be added to correctly represent working functions, as written in "description" field.
+This simple to-do list was made as an introduction to the React Application.
 
 ## Click for >>[Demo](https://mikolajpawlowski.github.io/todo-list-react/)<<
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
 <br>
-![Gif sample](https://github.com/MikolajPawlowski/to-do-list/blob/main/images/list.gif?raw=true "Gif sample")
+![Gif sample](https://github.com/MikolajPawlowski/todo-list-react/blob/main/public/example.gif?raw=true "Gif sample")
 <br>
 <br>
 ## Technologies used in this project
