@@ -6,7 +6,7 @@ export default styled.input`
     padding: 10px;
     color: black;
     border: 1px solid ${({ theme }) => theme.colors.primaryColor};
-    outline-color: ${({ theme }) => theme.colors.buttonsColor};
+    outline-color: ${({ theme }) => theme.colors.primaryColor};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
         margin: 0 0 10px;

@@ -18,7 +18,7 @@ export const Fieldset = styled.fieldset`
 `;
 
 export const FormButton = styled.button`
-    background-color: ${({ theme }) => theme.colors.buttonsColor};
+    background-color: ${({ theme }) => theme.colors.primaryColor};
     color: white;
     padding: 10px;
     border: none;
