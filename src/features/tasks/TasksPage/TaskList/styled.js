@@ -6,7 +6,7 @@ const activeClassName = "link-active";
 export const StyledLink = styled(NavLink).attrs(() => ({
   activeClassName,
 }))`
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.primaryColor};
   text-decoration: none;
 
   &.${activeClassName} {
