@@ -17,10 +17,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 >- BEM methodology
 >- JavaScript
 >- Flex & grid
->- React JS
->- Redux Saga
->- Redux Router
->- Redux Toolkit
+>- Hooks: useState, useEffect, useRef, useSelector, useDispatch, useLocation, useHistory
+>- React-Dom, React-Redux, Redux-Toolkit, Redux-Saga
+>- LocalStorage
 
 ## Description
 
@@ -35,7 +34,7 @@ You can then **check it** by pressing green button, or **delete it** by pressing
 With either one of two appearing buttons you can **show/hide** finished tasks or **mark them all** as finished.
 <br>
 <br>
-You can also **filter**, or **download** example tasks by using redux-saga.
+You can also **filter**, or **download** example tasks.
 <br>
 <br>
 <em>Contact: <pawlowskiem@gmail.com> </em>
